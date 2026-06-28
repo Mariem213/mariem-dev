@@ -1,18 +1,18 @@
+import Container from "./components/ui/Container/Container";
+
 function App() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <div className="text-center">
-        <h1>Hi, I'm Mariem Elgendy 👋</h1>
-
-        <p
+    <main className="min-h-screen">
+      <Container>
+        <h1
+          className="text-5xl font-bold"
           style={{
-            color: "var(--color-text-secondary)",
-            marginTop: "1rem",
+            color: "var(--color-primary)",
           }}
         >
-          Fullstack Developer | Teaching Assistant
-        </p>
-      </div>
+          Mariem Dev
+        </h1>
+      </Container>
     </main>
   );
 }
