@@ -1,10 +1,19 @@
 function App() {
   return (
-    <div className="flex h-screen items-center justify-center bg-black">
-      <h1 className="text-5xl font-bold text-yellow-400">
-        Mariem Portfolio
-      </h1>
-    </div>
+    <main className="min-h-screen flex items-center justify-center">
+      <div className="text-center">
+        <h1>Hi, I'm Mariem Elgendy 👋</h1>
+
+        <p
+          style={{
+            color: "var(--color-text-secondary)",
+            marginTop: "1rem",
+          }}
+        >
+          Fullstack Developer | Teaching Assistant
+        </p>
+      </div>
+    </main>
   );
 }
 

@@ -1,0 +1,72 @@
+/* ==========================================================
+    GLOBAL STYLES
+   ========================================================== */
+
+/* Reset */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Smooth Scrolling */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--color-background);
+	color: var(--color-text-primary);
+
+	transition: var(--transition);
+
+	min-height: 100vh;
+
+	overflow-x: hidden;
+
+	text-rendering: optimizeLegibility;
+
+	-webkit-font-smoothing: antialiased;
+
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* images as Responsive */
+img {
+	display: block;
+	max-width: 100%;
+}
+
+button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: transparent;
+	font: inherit;
+}
+
+/* the Inputs use the same font */
+input,
+textarea,
+select {
+	font: inherit;
+}
+
+/* remove the default bullet points from lists */
+ul,
+ol {
+	list-style: none;
+}
+
+/* selection text color */
+::selection {
+	background-color: var(--color-primary);
+	color: white;
+}
