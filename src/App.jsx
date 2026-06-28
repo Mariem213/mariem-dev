@@ -1,9 +1,12 @@
 import Container from "./components/ui/Container/Container";
+import ThemeToggle from "./components/ui/ThemeToggle/ThemeToggle";
 
 function App() {
   return (
     <main className="min-h-screen">
-      <Container>
+      <Container className="flex flex-col items-center justify-center min-h-screen gap-8">
+        <ThemeToggle />
+
         <h1
           className="text-5xl font-bold"
           style={{
